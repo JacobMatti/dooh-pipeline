@@ -1,4 +1,4 @@
-TICKETMASTER_API_KEY = "e8GJ1cVwDC387BhuZQMmLQYe7TQ7cWnX"
+TICKETMASTER_API_KEY = "ticket master api here"
 
 S3_BUCKET = "dooh-pipeline"
 AWS_REGION = "us-east-1"

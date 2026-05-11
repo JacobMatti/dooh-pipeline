@@ -39,22 +39,18 @@ Events are scored using Ticketmaster's segment classifications, Sports events sc
 
 ## Setup
 
-```
+Add your Ticketmaster API key to config.py.
+
 pip install boto3 requests pandas pyarrow duckdb
 aws configure
 aws s3 mb s3://dooh-pipeline
-```
 
-Add your Ticketmaster API key to `config.py`.
 
-## Running
-
-```
 python ingest.py
 python transform.py
 python query.py
 python query.py query  # interactive SQL mode
-```
+
 
 ## S3 Structure
 
